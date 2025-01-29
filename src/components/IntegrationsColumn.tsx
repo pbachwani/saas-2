@@ -1,12 +1,12 @@
 "use client";
 import React from "react";
 import Image from "next/image";
-import { type IntegrationsType } from "@/sections/Integrations";
+import { type TntegrationsType } from "@/sections/Integrations";
 import { twMerge } from "tailwind-merge";
 import { motion } from "motion/react";
 
 const IntegrationsColumn = (props: {
-    integrations: IntegrationsType;
+    integrations: TntegrationsType;
     className?: string;
     reverse?: boolean;
 }) => {
